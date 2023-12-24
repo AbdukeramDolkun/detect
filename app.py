@@ -25,7 +25,7 @@ def load_model():
 # - Loading the pre-trained YOLOv8l model
 model = load_model()
 
-st.markdown("<h1 class='centered-heading'>基于yolov8的道路病害识别系统</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='centered-heading'>基于yolov8的道路病害检测系统</h1>", unsafe_allow_html=True)
 
 # - Uploading multiple images
 with st.form("my-form", clear_on_submit=True):
