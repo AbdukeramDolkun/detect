@@ -29,8 +29,8 @@ st.markdown("<h1 class='centered-heading'>基于yolov8的道路病害识别系�
 
 # - Uploading multiple images
 with st.form("my-form", clear_on_submit=True):
-        uploaded_images = st.file_uploader("Upload an image or multiple images for vehicle registration plate detection", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
-        submitted = st.form_submit_button("submit")
+        uploaded_images = st.file_uploader("上传单张或多张图片", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
+        submitted = st.form_submit_button("提交")
 
 if uploaded_images:
     for uploaded_image in uploaded_images:
